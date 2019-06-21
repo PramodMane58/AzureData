@@ -1,0 +1,10 @@
+from datetime import date
+print('Please Enter first date yyyy,mm,dd format ')
+first_date = input()
+year, month, day = map(int, first_date.split(','))
+firstdate = date(year, month, day)
+print('Please Enter secound date yyyy,mm,dd format')
+sec_date = input()
+year, month, day = map(int, sec_date.split(','))
+secdate = date(year, month, day)
+print(abs((firstdate-secdate).days))
