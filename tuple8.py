@@ -1,0 +1,6 @@
+tup1 = ('physics', 'chemistry', 1997, 2000,'re',2000)
+print(tup1)
+list1 = list(tup1)
+list1.remove(2000)
+new_tup = tuple(list1)
+print(new_tup)
