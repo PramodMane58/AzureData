@@ -1,3 +1,12 @@
-from numpy import matrix
-A = matrix( [[1,2,3],[11,12,13],[21,22,23]]) # Creates a matrix.
-print(A.I)
+import numpy as np
+
+a = np.array([[30, 90, 5], [80, 92, 10], [50, 95, 60]])
+
+print('Our array is:')
+print(a)
+print('\n')
+
+
+print(np.median(a))
+
+
