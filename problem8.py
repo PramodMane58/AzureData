@@ -1,4 +1,4 @@
-def histogram(*items):
+def histogram(items):
     for n in items:
         output = ''
         times = int(n)
