@@ -1,4 +1,4 @@
-import numpy as np
+import numpy1 as np
 
 a = np.array([[30, 90, 5], [80, 92, 10], [50, 95, 60]])
 
