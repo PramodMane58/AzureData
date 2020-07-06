@@ -4,12 +4,6 @@
 	"parameters": {
 		"factoryName": {
 			"value": "pramodADFlearing"
-		},
-		"linkDataLakeGen2_accountKey": {
-			"value": ""
-		},
-		"linkDataLakeGen2_properties_typeProperties_url": {
-			"value": "https://mylearingstorageaccount.dfs.core.windows.net"
 		}
 	}
 }
