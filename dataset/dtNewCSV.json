@@ -1,0 +1,23 @@
+{
+	"name": "dtNewCSV",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "linkDataLakeGen2",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "Sacramentorealestatetransactions.csv",
+				"folderPath": "New Folder",
+				"fileSystem": "test"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
