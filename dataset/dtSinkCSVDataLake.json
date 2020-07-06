@@ -1,0 +1,22 @@
+{
+	"name": "dtSinkCSVDataLake",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "linkDataLakeGen2",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "SinkData",
+				"fileSystem": "test"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
